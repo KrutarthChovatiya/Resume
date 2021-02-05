@@ -258,7 +258,9 @@ footer div h2{
 /* --------------------------Responsive------------------------------------ */
 @media screen and (max-width:850px)
 {
-  
+   footer .links span{
+        display: none;
+    }
     .justfordesktop{
         display: none;
     }
