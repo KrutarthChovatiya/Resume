@@ -105,6 +105,27 @@ header h2{
     display: none;
 }
 
+
+
+/* ----------------------ProfilePicture---------------------- */
+
+.profilepicture{
+    position:absolute;
+    float: left;
+    /* background-image: url("../images/Passport\ Size\ Photo-02.jpeg"); */
+    background-image: url("../images/pfp2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 24%;
+    width:12%;
+    margin-top: -9%;
+    /* margin-top: -150px; */
+    margin-left: 83%;
+    border-radius: 50%;
+    border:8px solid #C97D60;
+}
+
 /*------------------------Key skills--------------------------*/
 
 .keyskills{
@@ -258,7 +279,7 @@ footer div h2{
 /* --------------------------Responsive------------------------------------ */
 @media screen and (max-width:850px)
 {
-   footer .links span{
+    footer .links span{
         display: none;
     }
     .justfordesktop{
@@ -329,5 +350,12 @@ footer div h2{
         background-attachment: fixed;
         /* background-size: 100%; */
         background-size: cover;
+    }
+}
+
+@media screen and (max-width:1024px)
+{
+    .profilepicture{
+        display: none;
     }
 }
