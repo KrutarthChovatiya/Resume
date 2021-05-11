@@ -346,7 +346,8 @@ footer div h2{
 @media screen and (max-width:1050px)
 {
     .lam{
-        background-image: url("../images/joanna-kosinska-unsplash\(blur\).jpg");
+        /* background-image: url("../images/joanna-kosinska-unsplash\(blur\).jpg"); */
+        background-image: url("../images/achievement.jpg");
         background-position:top right;
         background-attachment: fixed;
         /* background-size: 100%; */
