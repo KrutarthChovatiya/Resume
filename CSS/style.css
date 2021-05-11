@@ -207,7 +207,8 @@ header h2{
 /*------------------------internship, leadership and achivements--------------------------*/
 .lam{
     background-color: #F2E5D7;
-    background-image: url("../images/joanna-kosinska-unsplash.jpg");
+    /* background-image: url("../images/joanna-kosinska-unsplash.jpg"); */
+    background-image: url("../images/achievement.jpg");
     background-position:top right;
     background-attachment: fixed;
     /* background-size: 100%; */
